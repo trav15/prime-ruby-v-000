@@ -4,6 +4,8 @@ def prime?(int)
     return true 
   elsif int.negative?
     return false
+  elsif int == 1
+    return false
   end
   prime_nums.each do |prime_num|
     if int == prime_num 
