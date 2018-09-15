@@ -2,6 +2,8 @@ def prime?(int)
   prime_nums = [2, 3, 5, 7, 11, 13, 17, 19, 23]
   if int == 2 
     return true 
+  elsif int.negative?
+    return false
   end
   prime_nums.each do |prime_num|
     if int == prime_num 
