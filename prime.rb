@@ -12,8 +12,7 @@ def prime?(int)
       return true  
     elsif int % prime_num == 0
       return false
-    else
-      return true
     end
   end
+  return true
 end
